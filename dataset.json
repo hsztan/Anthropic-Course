@@ -1,11 +1,11 @@
 [
   {
-    "task": "Write a regular expression to validate an AWS S3 bucket name. Bucket names must be between 3 and 63 characters, contain only lowercase letters, numbers, hyphens, and periods, cannot start or end with a hyphen or period, and cannot contain consecutive periods."
+    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI string (e.g., 's3://my-bucket/path/to/file.txt') and returns just the bucket name."
   },
   {
-    "task": "Create a Python function that takes an AWS IAM ARN string as input and returns a dictionary with extracted components: partition, service, region, account_id, and resource. Example ARN: 'arn:aws:iam::123456789012:user/Development/product_1201/*'"
+    "task": "Create a JSON object that represents an AWS IAM policy allowing a principal to perform GetObject and PutObject actions on a specific S3 bucket named 'my-data-bucket'."
   },
   {
-    "task": "Generate a JSON CloudFormation template snippet for an AWS Lambda execution role that grants basic Lambda execution permissions and allows writing logs to CloudWatch."
+    "task": "Write a regular expression that matches and validates AWS EC2 instance IDs in the format 'i-' followed by exactly 17 hexadecimal characters (e.g., 'i-0abcd1234efgh5678')."
   }
 ]
